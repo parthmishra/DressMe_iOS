@@ -2,6 +2,7 @@ package check.test;
 
 import android.os.Build;
 import android.os.Bundle;
+import check.test.R;
 
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;

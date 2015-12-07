@@ -17,7 +17,7 @@
          >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/creation_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -94,26 +94,31 @@
         android:layout_width="fill_parent"
         android:layout_gravity="bottom|start">
         <ImageButton
+            android:id="@+id/favorite"
             android:layout_height="wrap_content"
             android:src="@drawable/rsz_like78"
             android:layout_width="fill_parent"
             android:layout_weight="1"/>
         <ImageButton
+            android:id="@+id/weather"
             android:layout_height="wrap_content"
             android:src="@drawable/rsz_cloud_storage1"
             android:layout_width="fill_parent"
             android:layout_weight="1"/>
         <ImageButton
+            android:id="@+id/add"
             android:layout_height="wrap_content"
             android:src="@drawable/rsz_add201"
             android:layout_width="fill_parent"
             android:layout_weight="1"/>
         <ImageButton
+            android:id="@+id/randomize"
             android:layout_height="wrap_content"
             android:src="@drawable/rsz_refresh69"
             android:layout_width="fill_parent"
             android:layout_weight="1"/>
         <ImageButton
+            android:id="@+id/upload"
             android:layout_height="wrap_content"
             android:src="@drawable/rsz_up_arrow15"
             android:layout_width="fill_parent"

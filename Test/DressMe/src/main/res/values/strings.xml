@@ -15,5 +15,8 @@
     <string name="button_accessory">Accessory</string>
 
     <string name="activity2_title">DressMe</string>
+    <string name="title_activity_gallery_top">gallery_top</string>
+    <string name="title_activity_gallerybutton__top">Gallerybutton_Top</string>
+    <string name="title_activity_favorites">Favorites</string>
 
 </resources>

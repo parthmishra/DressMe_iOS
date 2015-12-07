@@ -8,4 +8,12 @@
     <string name="menu_option5">Test</string>
     <string name="menu_option6">Settings</string>
     <string name="title_activity_creation_screen">CreationScreen</string>
+
+    <string name="button_top">Top</string>
+    <string name="button_legging">Legging</string>
+    <string name="button_shoe">Shoe</string>
+    <string name="button_accessory">Accessory</string>
+
+    <string name="activity2_title">DressMe</string>
+
 </resources>

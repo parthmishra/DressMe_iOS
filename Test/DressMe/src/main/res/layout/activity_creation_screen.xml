@@ -23,7 +23,7 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="29dp"
-            android:text="DressMe"
+            android:text="@string/activity2_title"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="40dp"
             android:textStyle="bold" />
@@ -35,7 +35,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="120dp"
             android:background="@drawable/shirt"
-            android:text="Top"
+            android:text="@string/button_top"
             android:focusable="true"
             android:textColor="#000000"
             android:textStyle="bold" />
@@ -49,7 +49,7 @@
             android:layout_marginTop="120dp"
             android:background="@drawable/accessory"
             android:focusable="true"
-            android:text="Accessory"
+            android:text="@string/button_accessory"
             android:textColor="#000000"
             android:textStyle="bold" />
 
@@ -61,7 +61,7 @@
         android:layout_marginTop="282dp"
         android:background="@drawable/legging"
         android:focusable="true"
-        android:text="Legging"
+        android:text="@string/button_legging"
         android:textColor="#000000"
         android:textStyle="bold" />
 
@@ -75,7 +75,7 @@
             android:layout_marginTop="282dp"
             android:background="@drawable/shoe"
             android:focusable="true"
-            android:text="Shoe"
+            android:text="@string/button_shoe"
             android:textColor="#000000"
             android:textStyle="bold" />
 
@@ -88,28 +88,34 @@
 
 
 
-    <LinearLayout android:id="@+id/LinearLayout02"
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:layout_gravity="bottom|start">
-        <Button android:layout_height="wrap_content"
-            android:text="Upde"
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:src="@drawable/rsz_like78"
             android:layout_width="fill_parent"
             android:layout_weight="1"/>
-        <Button android:layout_height="wrap_content"
-            android:text="New"
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:src="@drawable/rsz_cloud_storage1"
             android:layout_width="fill_parent"
             android:layout_weight="1"/>
-        <Button android:layout_height="wrap_content"
-            android:text="Delet"
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:src="@drawable/rsz_add201"
             android:layout_width="fill_parent"
             android:layout_weight="1"/>
-        <Button android:layout_height="wrap_content"
-            android:text="Delet"
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:src="@drawable/rsz_refresh69"
             android:layout_width="fill_parent"
             android:layout_weight="1"/>
-        <Button android:layout_height="wrap_content"
-            android:text="Delet"
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:src="@drawable/rsz_up_arrow15"
             android:layout_width="fill_parent"
             android:layout_weight="1"/>
     </LinearLayout>

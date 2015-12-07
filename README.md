@@ -2,4 +2,4 @@
 Dress Me is an iOS clothing assistant app
 
 Contributors:
-Danny Seo(dose5562)
+Dose5562

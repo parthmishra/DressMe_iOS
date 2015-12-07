@@ -2,23 +2,130 @@
 <android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+
     tools:context="check.test.CreationScreen">
 
-    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
-        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
 
-    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:text="DressMe"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_top"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/shirt"
+            android:text="Top"
+            android:focusable="true"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_accessory"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/accessory"
+            android:focusable="true"
+            android:text="Accessory"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+        android:id="@+id/button_legging"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="282dp"
+        android:background="@drawable/legging"
+        android:focusable="true"
+        android:text="Legging"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_shoe"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="282dp"
+            android:background="@drawable/shoe"
+            android:focusable="true"
+            android:text="Shoe"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+    <LinearLayout android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="bottom|start">
+        <Button android:layout_height="wrap_content"
+            android:text="Upde"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+        <Button android:layout_height="wrap_content"
+            android:text="New"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+        <Button android:layout_height="wrap_content"
+            android:text="Delet"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+        <Button android:layout_height="wrap_content"
+            android:text="Delet"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+        <Button android:layout_height="wrap_content"
+            android:text="Delet"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
 
     <include layout="@layout/content_creation_screen" />
 
-
+<!--
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/first"
+        android:id="@+id/favorites"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|start"
+        app:backgroundTint="@android:color/transparent"
         android:layout_margin="@dimen/fab_margin"
         android:src="@android:drawable/ic_dialog_email" />
 
@@ -54,5 +161,6 @@
         android:layout_gravity="bottom"
         android:layout_margin="@dimen/fab_margin"
         android:src="@android:drawable/ic_dialog_email" />
+        -->
 
 </android.support.design.widget.CoordinatorLayout>

@@ -16,6 +16,7 @@ import android.widget.RelativeLayout;
 import android.widget.Button;
 import android.widget.Toast;
 import android.widget.ImageButton;
+import android.content.Intent;
 
 import android.view.Window;
 import android.view.WindowManager;
@@ -35,9 +36,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        FloatingActionButton button = (FloatingActionButton) findViewById(R.id.button1);
+        button.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(getApplicationContext(), CreationScreen.class);
+                startActivity(i);
+            }
+        });
 
     }
+
+
 
     //Opened by pressing Menu button. Can be modified to open other activities.
 

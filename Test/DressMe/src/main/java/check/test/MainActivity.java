@@ -1,6 +1,6 @@
 package check.test;
 
-
+import android.os.Build;
 import android.os.Bundle;
 
 import android.support.design.widget.FloatingActionButton;
@@ -17,6 +17,10 @@ import android.widget.Button;
 import android.widget.Toast;
 import android.widget.ImageButton;
 
+import android.view.Window;
+import android.view.WindowManager;
+import android.view.WindowManager.LayoutParams;
+
 
 import android.util.Log;
 
@@ -32,15 +36,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
 
-            }
-        });
     }
 
     //Opened by pressing Menu button. Can be modified to open other activities.

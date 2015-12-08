@@ -24,8 +24,18 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="androidinterview.com.cutomlistviewimage.Favorites"
+            android:name="com.javatechig.imageview.Favorites"
             android:label="@string/title_activity_favorites"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Favorites"
+            android:label="@string/title_activity_favorites2"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.javatechig.imageview.Main2Activity"
+            android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>

@@ -18,5 +18,7 @@
     <string name="title_activity_gallery_top">gallery_top</string>
     <string name="title_activity_gallerybutton__top">Gallerybutton_Top</string>
     <string name="title_activity_favorites">Favorites</string>
+    <string name="title_activity_favorites2">Favorites2</string>
+    <string name="title_activity_main2">Main2Activity</string>
 
 </resources>

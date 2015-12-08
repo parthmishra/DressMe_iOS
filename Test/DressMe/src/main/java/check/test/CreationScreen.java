@@ -2,24 +2,13 @@ package check.test;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
-import android.view.View;
-import android.widget.Toast;
 
-import androidinterview.com.cutomlistviewimage.Favorites;
+import com.javatechig.imageview.Main2Activity;
 
 
 public class CreationScreen extends AppCompatActivity {
@@ -43,7 +32,7 @@ public class CreationScreen extends AppCompatActivity {
         button_weather.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                Intent i = new Intent(getApplicationContext(), Favorites.class);
                 startActivity(i);
             }
         });
@@ -61,7 +50,7 @@ public class CreationScreen extends AppCompatActivity {
         button_randomize.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                Intent i = new Intent(getApplicationContext(), com.javatechig.imageview.Favorites.class);
                 startActivity(i);
             }
         });
@@ -70,7 +59,7 @@ public class CreationScreen extends AppCompatActivity {
         upload.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
                 startActivity(i);
             }
         });

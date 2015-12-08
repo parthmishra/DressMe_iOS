@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listView_grid"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_gradient_manager"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_border"
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/rsz_like78"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Favorite_Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Testing1"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="17dip"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Profile_Info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#343434"
+        android:textSize="15dip"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_below="@id/Favorite_Profile"
+        android:text="Sample Description" />
+
+    <TextView
+        android:id="@+id/action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/Favorite_Profile"
+        android:gravity="right"
+        android:text="Hey"
+        android:layout_marginRight="5dip"
+        android:textSize="10dip"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"/>
+
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rsz_up_arrow15"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>
+

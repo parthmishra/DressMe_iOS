@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+
+    tools:context="check.test.CreationScreen">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+
+        <TextView
+            android:id="@+id/creation_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:text="@string/activity2_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_top"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/shirt"
+            android:text="@string/button_top"
+            android:focusable="true"
+            android:textColor="#000000"
+
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_accessory"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/accessory"
+            android:focusable="true"
+            android:text="@string/button_accessory"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <ImageButton
+        android:id="@+id/button_legging"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="282dp"
+        android:background="@drawable/legging"
+        android:focusable="true"
+        android:text="@string/button_legging"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_shoe"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="282dp"
+            android:background="@drawable/shoe"
+            android:focusable="true"
+            android:text="@string/button_shoe"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="bottom|start">
+        <ImageButton
+            android:id="@+id/favorite"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rsz_like78"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/weather"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rsz_cloud_storage1"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rsz_add201"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+        <!--android:background="@drawable/buttonshape"-->
+        <ImageButton
+            android:id="@+id/randomize"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rsz_refresh69"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/upload"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rsz_up_arrow15"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+
+    <!--<include layout="@layout/content_creation_screen" />-->
+
+<!--
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/favorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fourth"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingLeft="5dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" />
+        -->
+
+</android.support.design.widget.CoordinatorLayout>

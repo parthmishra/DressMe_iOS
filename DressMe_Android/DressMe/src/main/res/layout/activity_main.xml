@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/screen1"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/content_main" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <ImageButton
+        android:id="@+id/FirstButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/screen1"
+        android:focusable="true"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

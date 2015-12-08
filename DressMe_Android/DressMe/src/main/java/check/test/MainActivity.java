@@ -1,33 +1,17 @@
 package check.test;
 
-import android.os.Build;
-import android.os.Bundle;
-import check.test.R;
 
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import android.widget.RelativeLayout;
-import android.widget.Button;
 import android.widget.Toast;
 import android.widget.ImageButton;
 import android.content.Intent;
 
-import android.view.Window;
-import android.view.WindowManager;
-import android.view.WindowManager.LayoutParams;
-
-
-import android.util.Log;
-
-import android.graphics.drawable.Drawable;
-import android.graphics.Color;
 
 
 
@@ -37,10 +21,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        FloatingActionButton button = (FloatingActionButton) findViewById(R.id.button1);
-        button.setOnClickListener(new View.OnClickListener() {
 
-            @Override
+        final ImageButton button_legging = (ImageButton) findViewById(R.id.FirstButton);
+        button_legging.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent i = new Intent(getApplicationContext(), CreationScreen.class);

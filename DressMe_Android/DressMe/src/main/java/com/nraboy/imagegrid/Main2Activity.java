@@ -14,7 +14,7 @@ import android.view.View;
 import com.nraboy.imagegrid.ImageAdapter;
 import com.nraboy.imagegrid.Main2Activity;
 
-
+///Screen for displaying uploaded garments
 public class Main2Activity extends Activity {
 
 

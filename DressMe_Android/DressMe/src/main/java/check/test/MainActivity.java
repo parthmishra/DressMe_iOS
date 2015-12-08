@@ -1,3 +1,36 @@
+/*! \mainpage DressMe_Android Manual
+ *
+ * Currently updated to include the major classes and function calls.
+ *
+ * \section intro_sec Introduction
+ *
+ * DressMe_Android is the android software designed to creating from selection of clothing to help
+ * the user decide what to wear.
+ *
+ * \section install_sec Installation
+ *
+ * \subsection step1 Step 1: Download the DressMe_Android Folder
+ *
+ *No other files outside of this directory is needed
+ *
+ *\subsection step2 Step 2: Import it into Android Studio
+ *
+ *http://developer.android.com/sdk/index.html?gclid=Cj0KEQiAnJqzBRCW0rGWnKnckOIBEiQA6qDBansVdZzNTq_ydYsfe8TKvrCCPyrsxOrUovuBC88e9YQaAjKl8P8HAQ
+ *
+ *\subsection step3 Step 3: Build and Run
+ *
+ *An android hardware may be needed to run the project.
+ * For integrated emulation software, http://developer.android.com/tools/devices/emulator.html#apps
+ *
+ * \section class_sec Relevant Classes
+ * CreationScreen
+ * Favorites
+ * MainActivity
+ * Main2Activity
+ *
+ *
+ */
+
 package check.test;
 
 
@@ -12,9 +45,15 @@ import android.widget.Toast;
 import android.widget.ImageButton;
 import android.content.Intent;
 
+///First Application Page
 
 
 
+/**
+ * Created when Application first starts. Lays out profile settings if user settings are set to null.
+ *
+ * Presss anywhere on screen leads to the second screen, the CreationScreen activity.
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -62,6 +101,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * dfdsfdsafdsafdsafdsaf
+     *
+     * Detailed description of file.
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

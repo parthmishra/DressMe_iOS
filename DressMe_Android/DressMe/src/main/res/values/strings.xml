@@ -20,5 +20,6 @@
     <string name="title_activity_favorites">Favorites</string>
     <string name="title_activity_favorites2">Favorites2</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_weather">Weather</string>
 
 </resources>

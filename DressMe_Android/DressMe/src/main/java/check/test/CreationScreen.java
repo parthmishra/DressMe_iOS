@@ -23,7 +23,7 @@ public class CreationScreen extends AppCompatActivity {
         button_top.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
+                Intent i = new Intent(getApplicationContext(), check.test.Favorites.class);
                 startActivity(i);
             }
         });

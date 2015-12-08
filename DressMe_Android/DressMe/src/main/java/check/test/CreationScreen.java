@@ -8,7 +8,7 @@ import android.widget.ImageButton;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.javatechig.imageview.Main2Activity;
+import com.nraboy.imagegrid.Main2Activity;
 
 
 public class CreationScreen extends AppCompatActivity {
@@ -19,11 +19,56 @@ public class CreationScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_creation_screen);
 
+        final ImageButton button_top = (ImageButton) findViewById(R.id.button_top);
+        button_top.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
+                startActivity(i);
+            }
+        });
+
+        final ImageButton button_accessory = (ImageButton) findViewById(R.id.button_accessory);
+        button_accessory.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
+                startActivity(i);
+            }
+        });
+
+        final ImageButton button_legging = (ImageButton) findViewById(R.id.button_legging);
+        button_legging.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
+                startActivity(i);
+            }
+        });
+
+        final ImageButton button_shoe = (ImageButton) findViewById(R.id.button_shoe);
+        button_shoe.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
+                startActivity(i);
+            }
+        });
+
+
+
+
+
+
+
+
+
+       //Bottom Tool Bar
         final ImageButton button_favorite = (ImageButton) findViewById(R.id.favorite);
         button_favorite.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), Favorites.class);
+                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
                 startActivity(i);
             }
         });
@@ -32,7 +77,7 @@ public class CreationScreen extends AppCompatActivity {
         button_weather.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), Favorites.class);
+                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
                 startActivity(i);
             }
         });
@@ -50,7 +95,7 @@ public class CreationScreen extends AppCompatActivity {
         button_randomize.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), com.javatechig.imageview.Favorites.class);
+                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
                 startActivity(i);
             }
         });

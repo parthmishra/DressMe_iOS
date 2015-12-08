@@ -24,20 +24,19 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="com.javatechig.imageview.Favorites"
-            android:label="@string/title_activity_favorites"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity
-            android:name=".Favorites"
+            android:name="Favorites"
             android:label="@string/title_activity_favorites2"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="com.javatechig.imageview.Main2Activity"
+            android:name="com.nraboy.imagegrid.Main2Activity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>
+
+

@@ -10,6 +10,7 @@ import android.view.MenuItem;
 
 import com.nraboy.imagegrid.Main2Activity;
 
+
 ///Main screen for various functionality
 
 /**
@@ -29,7 +30,7 @@ public class CreationScreen extends AppCompatActivity {
         button_top.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), check.test.Favorites.class);
+                Intent i = new Intent(getApplicationContext(), check.test.ActivityClothingTop.class);
                 startActivity(i);
             }
         });
@@ -38,7 +39,7 @@ public class CreationScreen extends AppCompatActivity {
         button_accessory.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
+                Intent i = new Intent(getApplicationContext(), ActivityClothingAccessory.class);
                 startActivity(i);
             }
         });
@@ -47,7 +48,7 @@ public class CreationScreen extends AppCompatActivity {
         button_legging.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
+                Intent i = new Intent(getApplicationContext(), ActivityClothingLeggings.class);
                 startActivity(i);
             }
         });
@@ -56,7 +57,7 @@ public class CreationScreen extends AppCompatActivity {
         button_shoe.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
+                Intent i = new Intent(getApplicationContext(), ActivityClothingShoe.class);
                 startActivity(i);
             }
         });
@@ -73,7 +74,7 @@ public class CreationScreen extends AppCompatActivity {
         final ImageButton button_favorite = (ImageButton) findViewById(R.id.favorite);
         button_favorite.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
+                Intent i = new Intent(getApplicationContext(), Creation_Favorites.class);
                 startActivity(i);
             }
         });
@@ -82,7 +83,7 @@ public class CreationScreen extends AppCompatActivity {
         final ImageButton button_weather = (ImageButton) findViewById(R.id.weather);
         button_weather.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Main2Activity.class);
+                Intent i = new Intent(getApplicationContext(), Weather.class);
                 startActivity(i);
             }
         });
@@ -91,7 +92,7 @@ public class CreationScreen extends AppCompatActivity {
         final ImageButton button_add = (ImageButton) findViewById(R.id.add);
         button_add.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                Intent i = new Intent(getApplicationContext(), Creation_Add.class);
                 startActivity(i);
             }
         });

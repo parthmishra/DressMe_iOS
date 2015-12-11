@@ -21,5 +21,11 @@
     <string name="title_activity_favorites2">Favorites2</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_weather">Weather</string>
+    <string name="title_activity_activity_clothing_top">ActivityClothingTop</string>
+    <string name="title_activity_activity_clothing_leggings">ActivityClothingLeggings</string>
+    <string name="title_activity_activity_clothing_accessory">ActivityClothingAccessory</string>
+    <string name="title_activity_activity_clothing_shoe">ActivityClothingShoe</string>
+    <string name="title_activity_creation__add">Creation_Add</string>
+    <string name="title_activity_main22">Main22Activity</string>
 
 </resources>
